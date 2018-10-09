@@ -17,6 +17,4 @@
 
 Route::get('/', 'PagesController@index');
 
-Route::get('/values', function () {
-    return view('pages.values');
-});
+Route::get('/values', 'PagesController@values');
