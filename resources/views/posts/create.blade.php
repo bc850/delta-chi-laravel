@@ -2,7 +2,7 @@
 
 @section('content')
   <div class="container mt-3">
-    <div class="col-md-6">
+    <div class="col-md-12">
       <h2>Create Post</h2>
       {!! Form::open(['action' => 'PostsController@store', 'method' => 'POST']) !!}
         <div class="form-group">
@@ -11,7 +11,7 @@
         </div>
         <div class="form-group">
           {{Form::label('body', 'Body')}}
-          {{Form::textarea('body', '', ['class' => 'form-control', 'placeholder' => 'Body Text'])}}
+          {{Form::textarea('body', '', ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Body Text'])}}
         </div>
         {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
       {!! Form::close() !!}

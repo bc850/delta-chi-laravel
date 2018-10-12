@@ -13,7 +13,7 @@
                 <small>Written on {{$post->created_at}}</small>
               </div>
               <div class="card-body">
-                <p>{{$post->body}}</p>
+                <p>{!!$post->body!!}</p>
               </div>
             </div>
           </div>
