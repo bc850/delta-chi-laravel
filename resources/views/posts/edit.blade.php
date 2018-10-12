@@ -14,7 +14,9 @@
           {{Form::textarea('body', $post->body, ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Body Text'])}}
         </div>
         {{Form::hidden('_method', 'PUT')}}
-        {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
+        {{Form::submit('Submit', ['class' => 'btn btn-success btn-block'])}}
+        <br>
+        <a href="/posts/{{$post->id}}" class="btn btn-primary">Back</a>
       {!! Form::close() !!}
     </div>
   </div>
