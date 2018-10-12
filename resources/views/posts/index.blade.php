@@ -8,8 +8,8 @@
         @foreach($posts as $post)
           <div class="col-md-4">
             <div class="card">
-              <div class="card-title">
-                <h3>{{$post->title}}</h3>
+              <div class="card-header">
+                <h3><a href="/posts/{{$post->id}}">{{$post->title}}</a></h3>
                 <small>Written on {{$post->created_at}}</small>
               </div>
               <div class="card-body">
