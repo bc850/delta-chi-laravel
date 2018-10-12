@@ -2,14 +2,15 @@
 
 @section('content')
   <div class="container mt-3">
-    <h2>Index for Posts</h2>
+    <h2>Index for News & Posts</h2>
     @if(count($posts) > 1)
       <div class="row">
         @foreach($posts as $post)
           <div class="col-md-4">
             <div class="card">
               <div class="card-title">
-                <h3>{{$post->title}}
+                <h3>{{$post->title}}</h3>
+                <small>Written on {{$post->created_at}}</small>
               </div>
               <div class="card-body">
                 <p>{{$post->body}}</p>
