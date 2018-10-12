@@ -13,6 +13,7 @@
         </div>
         <div class="card-footer">
           <a href="/posts" class="btn btn-default">Back</a>
+          <a href="/posts/{{$post->id}}/edit" class="btn btn-success">Edit</a>
         </div>
       </div>
     </div>
