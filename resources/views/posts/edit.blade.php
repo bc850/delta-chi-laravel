@@ -16,7 +16,8 @@
         {{Form::hidden('_method', 'PUT')}}
         {{Form::submit('Submit', ['class' => 'btn btn-success btn-block'])}}
         <br>
-        <a href="/posts/{{$post->id}}" class="btn btn-primary">Back</a>
+        <a href="/posts/{{$post->id}}" class="btn btn-primary">Back to Posts</a>
+        <a href="/dashboard" class="btn btn-secondary">Back to Dashboard</a>
       {!! Form::close() !!}
     </div>
   </div>
