@@ -15,7 +15,25 @@
             @endif
 
             <a href="/posts/create" class="btn btn-primary">Create Post</a>
-            <h3>Your Blog Posts</h3>
+            <div>
+              <h3>Your Blog Posts</h3>
+              <div>
+                <table class="table table-striped">
+                  <tr>
+                    <th>Title</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                  @foreach ($posts as $post)
+                    <tr>
+                      <td>{{$post->title}}</td>
+                      <td><a class="btn btn-default" href="/posts/{{$post->id}}/edit">Edit</a></td>
+                      <td></td>
+                    </tr>
+                  @endforeach
+                </table>
+              </div>
+            </div>
         </div>
       </div>
     </div>
