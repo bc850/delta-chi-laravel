@@ -13,11 +13,15 @@
         </div>
         <div class="card-footer">
           <a href="/posts" class="btn btn-primary float-left">Back</a>
-          <a href="/posts/{{$post->id}}/edit" class="btn btn-success float-left ml-3">Edit</a>
-          {!!Form::open(['action' => ['PostsController@destroy', $post->id], 'method' => 'POST', 'class' => 'float-right'])!!}
-            {{Form::hidden('_method', 'DELETE')}}
-            {{Form::submit('Delete', ['class' => 'btn btn-danger'])}}
-          {!!Form::close()!!}
+          @if(!Auth::guest())
+            @if(Auth::user()->id == $post->user_id)
+              <a href="/posts/{{$post->id}}/edit" class="btn btn-success float-left ml-3">Edit</a>
+              {!!Form::open(['action' => ['PostsController@destroy', $post->id], 'method' => 'POST', 'class' => 'float-right'])!!}
+                {{Form::hidden('_method', 'DELETE')}}
+                {{Form::submit('Delete', ['class' => 'btn btn-danger'])}}
+              {!!Form::close()!!}
+            @endif
+          @endif
         </div>
       </div>
     </div>
