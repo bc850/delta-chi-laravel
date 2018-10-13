@@ -31,11 +31,6 @@
             </div>
           </li>
         </ul>
-        <ul class="nav navbar-nav navbar-right mr-3">
-          <li class="nav-item">
-            <a class="nav-link" href="/posts/create">Create Post</a>
-          </li>
-        </ul>
 
         <!-- Right Side Of Navbar -->
         <ul class="navbar-nav ml-auto">
