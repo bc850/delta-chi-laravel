@@ -6,7 +6,7 @@
       <div class="col-md-8">
         <div class="card">
           <div class="card-header">
-            <h3>Your Blog Posts</h3>
+            <h3>Your News Posts</h3>
           </div>
           <div class="card-body">
               @if (session('status'))
@@ -40,7 +40,7 @@
                   </table>
                 </div>
               @else
-                <p>You have no posts.</p>
+                <p>You have no news posts.</p>
               @endif
           </div>
         </div>
