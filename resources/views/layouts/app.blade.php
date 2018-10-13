@@ -21,9 +21,11 @@
 </head>
 <body>
   @include('includes.navbar')
-  <div class="container mt-3">
-    @include('includes.messages')
-  </div>
+  @if (Session::has('error') || Session::has('success'))
+    <div class="container mt-3">
+      @include('includes.messages')
+    </div>
+  @endif
   @yield('content')
 
   <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
