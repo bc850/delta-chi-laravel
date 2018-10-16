@@ -1,13 +1,13 @@
-<div class="container p18">
+<div class="container p16 text-center mb-4">
   <!--<h1>{{$title}}</h1>-->
   <h1 class="text-center">Valdosta State University Delta Chi Chapter</h1>
-  <p>
+  <p class="mt-4">
     The Valdosta State University Chapter of The Delta Chi Fraternity was
     established in 1968 as one of the first fraternities on campus. Our
     Brotherhood celebrates hard work, a commitment to excellence, and the
     camaraderie found through shared, common values:
   </p>
-  <p class="text-center">
+  <p>
     <strong>FRIENDSHIP. CHARACTER. JUSTICE. EDUCATION.</strong>
   </p>
   <p>

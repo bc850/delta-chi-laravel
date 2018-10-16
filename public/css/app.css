@@ -10472,6 +10472,21 @@ a.text-dark:focus {
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+body p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
 .p18 p {
   font-size: 18px !important;
 }
