@@ -3,17 +3,22 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Post;
 
 class PagesController extends Controller
 {
     public function index() {
       $title = "Welcome to Delta Chi at Valdosta State University";
 
+      // calling scoped published() method in Post model
+      $posts = Post::orderBy('created_at', 'desc')->published()->take(3);
+
+
       // One way to pass in the $title variable
       // return view('pages.index', compact('title'));
 
       // Second way to pass in the $title variable to the index view
-      return view('pages.index')->with('title', $title);
+      return view('pages.index')->with('title', $title)->with('posts', $posts);
     }
 
     public function values() {

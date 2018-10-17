@@ -10487,6 +10487,10 @@ body p {
   font-weight: 400;
 }
 
+.p16 p {
+  font-size: 16px !important;
+}
+
 .p18 p {
   font-size: 18px !important;
 }
