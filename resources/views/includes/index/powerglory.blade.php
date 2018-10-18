@@ -1,4 +1,4 @@
-<div class="container powerglory my-4">
+<div class="container powerglory my-4 p16">
   <div class="row">
     <div class="col-md-6">
       <img src="https://s3.amazonaws.com/delta-chi/dchi-america-sign.jpg" class="img-thumbnail" alt="DX America Sign">
@@ -8,9 +8,9 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12 mt-4">
-      <h3 class="text-center">And the power and the glory forever and ever, Amen.</h3>
-      <p>
+    <div class="col-md-12 mt-4 text-center">
+      <h3>And the power and the glory forever and ever, Amen.</h3>
+      <p class="mt-3">
         The Delta Chi Fraternity was founded in 1890 at Cornell University in
         Ithaca, NY. The fraternity was originally founded as the second law
         fraternity on the Cornell campus after a few different groups of men
