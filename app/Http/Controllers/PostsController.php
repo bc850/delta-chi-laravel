@@ -56,6 +56,7 @@ class PostsController extends Controller
         // Create Post
         $post = new Post;
         $post->title = $request->input('title');
+        $post->blurb = $request->input('blurb');
         $post->body = $request->input('body');
         $post->image_url = $request->input('image_url');
         $post->user_id = auth()->user()->id;
@@ -111,6 +112,7 @@ class PostsController extends Controller
       // Create Post
       $post = Post::find($id);
       $post->title = $request->input('title');
+      $post->blurb = $request->input('blurb');
       $post->body = $request->input('body');
       $post->image_url = $request->input('image_url');
       $post->save();

@@ -8,13 +8,13 @@
     @foreach ($posts as $post)
       <div class="col-md-4 text-center">
         <div class="card">
-          <div class="card-header" style="background-image: url(https://s3.amazonaws.com/united-way-greater-valdosta/uw-education-icon.png);"></div>
+          <div class="card-header" style="background-image: url({{$post->image_url}});"></div>
           <div class="card-body">
             <div class="card-title">
               <h5>{{$post->title}}</h5>
             </div>
             <div class="card-text">
-              <p>Assure children and youth have the support and experiences needed for a successful life and career.</p>
+              <p>{{ str_limit($post->blurb, $limit = 10, $end = '...') }}</p>
             </div>
             <div class="button-container">
               <button type="button" class="btn btn-primary" href="#" id="learnMoreButton">Learn More</button>

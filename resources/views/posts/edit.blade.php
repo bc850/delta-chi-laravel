@@ -10,6 +10,10 @@
           {{Form::text('title', $post->title, ['class' => 'form-control', 'placeholder' => 'Title'])}}
         </div>
         <div class="form-group">
+          {{Form::label('blurb', 'Blurb')}}
+          {{Form::text('blurb', $post->blurb, ['class' => 'form-control', 'placeholder' => 'Blurb'])}}
+        </div>
+        <div class="form-group">
           {{Form::label('body', 'Body')}}
           {{Form::textarea('body', $post->body, ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Body Text'])}}
         </div>
