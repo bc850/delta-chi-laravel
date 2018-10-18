@@ -10473,9 +10473,7 @@ a.text-dark:focus {
 }
 
 .postscontainer .card {
-  border: none;
-  border-radius: 0;
-  height: 450px;
+  height: 500px;
   margin-bottom: 20px;
   background-color: white;
 }
