@@ -13,6 +13,10 @@
           {{Form::label('body', 'Body')}}
           {{Form::textarea('body', '', ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Body Text'])}}
         </div>
+        <div class="form-group">
+          {{Form::label('image_url', 'Image URL')}}
+          {{Form::text('image_url', '', ['class' => 'form-control', 'placeholder' => 'Image URL'])}}
+        </div>
         {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
       {!! Form::close() !!}
     </div>

@@ -57,6 +57,7 @@ class PostsController extends Controller
         $post = new Post;
         $post->title = $request->input('title');
         $post->body = $request->input('body');
+        $post->image_url = $request->input('image_url');
         $post->user_id = auth()->user()->id;
         $post->save();
 
@@ -111,6 +112,7 @@ class PostsController extends Controller
       $post = Post::find($id);
       $post->title = $request->input('title');
       $post->body = $request->input('body');
+      $post->image_url = $request->input('image_url');
       $post->save();
 
       return redirect('/posts')->with('success', 'Post Updated.');
@@ -130,7 +132,7 @@ class PostsController extends Controller
         if(auth()->user()->id != $post->user_id) {
           return redirect('/posts')->with('error', 'Unauthorized page.');
         }
-        
+
         $post->delete();
         return redirect('/posts')->with('success', 'Post successfully removed.');
     }
