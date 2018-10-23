@@ -24,3 +24,7 @@ Route::resource('posts', 'PostsController');
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
+
+Route::group(['middleware' => 'auth', 'prefix' => 'dashboard'], function () {
+    Route::resource('posts', 'Dashboard\PostsController');
+});
