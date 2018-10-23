@@ -25,7 +25,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item " href="/values">Delta Chi Values</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item " href="#">Advocate</a>
+              <a class="dropdown-item " href="/local-history">Local History</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item " href="#">Volunteer</a>
             </div>

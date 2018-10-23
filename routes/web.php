@@ -17,7 +17,9 @@
 
 Route::get('/', 'PagesController@index');
 
+# Pages
 Route::get('/values', 'PagesController@values');
+Route::get('/local-history', 'PagesController@localHistory');
 
 Route::resource('posts', 'PostsController');
 

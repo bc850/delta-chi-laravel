@@ -33,4 +33,8 @@ class PagesController extends Controller
       );
       return view('pages.values')->with($data);
     }
+
+    public function localHistory() {
+      return view('pages.local-history');
+    }
 }
