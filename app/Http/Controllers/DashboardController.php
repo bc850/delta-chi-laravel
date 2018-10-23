@@ -31,9 +31,22 @@ class DashboardController extends Controller
         // return view('dashboard.navigation.dash')->with('posts', $user->posts);
 
         $user_id = auth()->user()->id;
-        
+
         // makes pagination work with model, won't work with a collection
         $posts = Post::where('user_id', $user_id)->paginate(3);
         return view('dashboard.navigation.dash')->with('posts', $posts);
+    }
+
+    public function dashboard() {
+      $user_id = auth()->user()->id;
+
+      return view('dashboard.navigation.nav');
+    }
+
+    public function postsIndex() {
+      $user_id = auth()->user()->id;
+
+      $posts = Post::where('user_id', $user_id)->paginate(3);
+      return view('dashboard.views.posts')->with('posts', $posts);
     }
 }
