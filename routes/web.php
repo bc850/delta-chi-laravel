@@ -20,6 +20,7 @@ Route::get('/', 'PagesController@index');
 # Pages
 Route::get('/values', 'PagesController@values');
 Route::get('/local-history', 'PagesController@localHistory');
+Route::get('/scholarship', 'PagesController@scholarship');
 
 Route::resource('posts', 'PostsController');
 

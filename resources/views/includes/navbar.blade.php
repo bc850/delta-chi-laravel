@@ -27,7 +27,7 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item " href="/local-history">Local History</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item " href="#">Volunteer</a>
+              <a class="dropdown-item " href="/scholarship">Scholarship</a>
             </div>
           </li>
         </ul>

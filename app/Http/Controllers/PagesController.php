@@ -37,4 +37,8 @@ class PagesController extends Controller
     public function localHistory() {
       return view('pages.local-history');
     }
+
+    public function scholarship() {
+      return view('pages.scholarship');
+    }
 }
