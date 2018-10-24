@@ -8,8 +8,8 @@
     <div class="row">
       <div class="col-md-8 py-3 mb-4" style="background-color: #fff; border: 1px solid #eee;">
         <div class="col-md-12">
-          <div class="mb-3">
-            <img src="https://www.rockhall.com/sites/default/files/styles/header_image_portrait/public/pinkfloyd_001a-crop.jpg?itok=No19pcnQ" style="width: 100%; height: auto;">
+          <div class="my-3">
+            <img class="img-thumbnail" src="https://www.rockhall.com/sites/default/files/styles/header_image_portrait/public/pinkfloyd_001a-crop.jpg?itok=No19pcnQ" style="width: 100%; height: auto;">
           </div>
           <div class="card mb-3">
             <div class="card-header">

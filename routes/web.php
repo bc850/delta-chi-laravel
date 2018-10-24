@@ -21,6 +21,7 @@ Route::get('/', 'PagesController@index');
 Route::get('/values', 'PagesController@values');
 Route::get('/local-history', 'PagesController@localHistory');
 Route::get('/scholarship', 'PagesController@scholarship');
+Route::get('/campus-involvement', 'PagesController@campusInvolvement');
 
 Route::resource('posts', 'PostsController');
 

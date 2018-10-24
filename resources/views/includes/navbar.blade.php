@@ -28,6 +28,8 @@
               <a class="dropdown-item " href="/local-history">Local History</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item " href="/scholarship">Scholarship</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item " href="/campus-involvement">Campus Involvement</a>
             </div>
           </li>
         </ul>

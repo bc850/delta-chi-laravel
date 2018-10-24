@@ -41,4 +41,8 @@ class PagesController extends Controller
     public function scholarship() {
       return view('pages.scholarship');
     }
+
+    public function campusInvolvement() {
+      return view('pages.campus-involvement');
+    }
 }
