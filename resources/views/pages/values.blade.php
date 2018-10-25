@@ -6,8 +6,8 @@
   </div>
   <div class="container py-4">
     <div class="row">
-      <div class="col-md-8 py-3 mb-4" style="background-color: #fff; border: 1px solid #eee;">
-        <div class="col-md-12">
+      <div class="col-md-8 mb-3">
+        <div class="col-md-12" style="background-color: #fff; border: 1px solid #eee;">
           <div class="py-3 px-3 mt-3" style="background-color: #f5f5f5;">
             <h3>Preamble</h3>
             <p>
