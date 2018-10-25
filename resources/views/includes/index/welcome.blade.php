@@ -5,7 +5,15 @@
         <h1 class="text-center">Valdosta State University Delta Chi Chapter</h1>
       </div>
       <div class="card-body">
-        <p class=" card-text mt-4 py-2">
+        <div class="row pt-3 pb-4">
+          <div class="col-md-6">
+            <img src="https://s3.amazonaws.com/delta-chi/dchi-america-sign.jpg" class="img-thumbnail" alt="DX America Sign">
+          </div>
+          <div class="col-md-6">
+            <img src="https://s3.amazonaws.com/delta-chi/dchi-adopt-road.jpg" class="img-thumbnail" alt="DX Adopt A Road">
+          </div>
+        </div>
+        <p class="card-text py-2">
           The Valdosta State University Chapter of The Delta Chi Fraternity was
           established in 1968 as one of the first fraternities on campus. Our
           Brotherhood celebrates hard work, a commitment to excellence, and the
