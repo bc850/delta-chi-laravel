@@ -4,7 +4,7 @@
   <div class="jumbotron" style="background: url(https://s3.amazonaws.com/delta-chi/home-jumbotron.jpg) no-repeat center center; width: 100%; height: 350px; top: 0; left: 0; border-radius: 0 !important;">
     <h1 class="text-center" style="color: #fff;">Local History</h1>
   </div>
-  <div class="container">
+  <div class="container py-4">
     <div class="row">
       <div class="col-md-8 py-3 mb-4" style="background-color: #fff; border: 1px solid #eee;">
         <div class="col-md-12">

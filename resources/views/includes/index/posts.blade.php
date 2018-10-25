@@ -1,6 +1,6 @@
-<div class="postscontainer container my-4">
-  <div class="row my-4">
-    <div class="col-md-12 text-center">
+<div class="postscontainer container py-4">
+  <div class="row">
+    <div class="col-md-12 text-center mb-4 mt-2">
       <h1>Delta Chi News</h1>
     </div>
   </div>

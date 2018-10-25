@@ -1,7 +1,7 @@
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-laravel">
+  <nav class="navbar navbar-expand-md navbar-light bg-default navbar-laravel fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="/"><img src="https://s3.amazonaws.com/delta-chi/deltachilogo.png" style="width: 175px; height: auto;" /></a>
+      <a class="navbar-brand" href="/"><img src="https://s3.amazonaws.com/delta-chi/dx-logo.png" style="width: 200px; height: auto;" /></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -11,12 +11,6 @@
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/posts">Posts</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -31,6 +25,9 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item " href="/campus-involvement">Campus Involvement</a>
             </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/posts">Posts</a>
           </li>
         </ul>
 
