@@ -1,5 +1,5 @@
 <header>
-  <nav class="navbar navbar-expand-md navbar-light bg-default navbar-laravel fixed-top">
+  <nav class="navbar navbar-expand-md navbar-light navbar-laravel fixed-top">
     <div class="container">
       <a class="navbar-brand" href="/"><img src="https://s3.amazonaws.com/delta-chi/dx-logo.png" style="width: 200px; height: auto;" /></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,6 +28,16 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Alumni
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item " href="/philanthropy/josh-dykes-memorial-golf-tournament">Alumni Association</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item " href="/philanthropy/josh-dykes-memorial-golf-tournament">50th Anniversary</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Philanthropy
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -38,6 +48,25 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/posts">Posts</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Recruitment
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item " href="/philanthropy/josh-dykes-memorial-golf-tournament">Letter From Recruitment Chair</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item " href="/philanthropy/josh-dykes-memorial-golf-tournament">Our Recruitment</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item " href="/philanthropy/the-v-foundation">Why Join Delta Chi</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item " href="/philanthropy/the-v-foundation">Recommend a Member</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item " href="/philanthropy/josh-dykes-memorial-golf-tournament">For Parents</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/posts">Contact Us</a>
           </li>
         </ul>
 

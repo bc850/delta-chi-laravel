@@ -13527,6 +13527,14 @@ a.text-dark:focus {
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+.navbar-laravel #navbarCollapse li a {
+  color: #C82B32;
+}
+
+.active a {
+  color: black !important;
+}
+
 .card .card-header {
   background-color: #F8FAFC;
   color: #C82B32;
@@ -13554,11 +13562,6 @@ a.text-dark:focus {
 .picturescontainer img {
   width: 100%;
   height: auto;
-}
-
-.picturescontainer .row {
-  padding: 0 !important;
-  margin: 0 !important;
 }
 
 .postscontainer .card {
