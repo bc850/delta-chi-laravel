@@ -17,13 +17,23 @@
               About
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item " href="/values">Delta Chi Values</a>
+              <a class="dropdown-item " href="/about/values">Delta Chi Values</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item " href="/local-history">Local History</a>
+              <a class="dropdown-item " href="/about/local-history">Local History</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item " href="/scholarship">Scholarship</a>
+              <a class="dropdown-item " href="/about/scholarship">Scholarship</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item " href="/campus-involvement">Campus Involvement</a>
+              <a class="dropdown-item " href="/about/campus-involvement">Campus Involvement</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Philanthropy
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item " href="/philanthropy/josh-dykes-memorial-golf-tournament">Josh Dykes Memorial Golf Tournament</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item " href="/philanthropy/the-v-foundation">The V Foundation</a>
             </div>
           </li>
           <li class="nav-item">

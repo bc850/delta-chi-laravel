@@ -27,16 +27,19 @@
               </button>
             </span>
           </div>
+        </div>
+        <div class="col-md-4">
+          <h5>Our Policies</h5>
           <p class="mt-3" style="color: #fff;">
             Members and Visitors to the Delta Chi Fraternity website agree to abide
             by our Policies and Terms.
           </p>
-        </div>
-        <div class="col-md-4">
-          <h5>Last Column</h5>
-          <p style="color: #fff;">
-            Some Stuff here.
-          </p>
+          <div class="my-3">
+            <a href="https://www.facebook.com/deltachi.valdostachapter/"><i class="fa fa-facebook fa-2x mx-3" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/VSUDeltaChi"><i class="fa fa-twitter fa-2x mx-3" aria-hidden="true"></i></a>
+            <a href="https://instagram.com/deltachi_vsu"><i class="fa fa-instagram fa-2x mx-3" aria-hidden="true"></i></a>
+            <a href="https://vsudeltachi.tumblr.com"><i class="fa fa-tumblr fa-2x mx-3" aria-hidden="true"></i></a>
+          </div>
         </div>
       </div>
     </div>

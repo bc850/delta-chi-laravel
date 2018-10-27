@@ -18,10 +18,12 @@
 Route::get('/', 'PagesController@index');
 
 # Pages
-Route::get('/values', 'PagesController@values');
-Route::get('/local-history', 'PagesController@localHistory');
-Route::get('/scholarship', 'PagesController@scholarship');
-Route::get('/campus-involvement', 'PagesController@campusInvolvement');
+Route::get('/about/values', 'PagesController@values');
+Route::get('/about/local-history', 'PagesController@localHistory');
+Route::get('/about/scholarship', 'PagesController@scholarship');
+Route::get('/about/campus-involvement', 'PagesController@campusInvolvement');
+Route::get('/philanthropy/josh-dykes-memorial-golf-tournament', 'PagesController@joshDykes');
+Route::get('/philanthropy/the-v-foundation', 'PagesController@theVFoundation');
 
 Route::resource('posts', 'PostsController');
 

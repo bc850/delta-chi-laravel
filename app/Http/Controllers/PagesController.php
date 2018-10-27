@@ -31,18 +31,26 @@ class PagesController extends Controller
             'Assisting in the Aquisition of a Sound Education'
           ]
       );
-      return view('pages.values')->with($data);
+      return view('pages.about.values')->with($data);
     }
 
     public function localHistory() {
-      return view('pages.local-history');
+      return view('pages.about.local-history');
     }
 
     public function scholarship() {
-      return view('pages.scholarship');
+      return view('pages.about.scholarship');
     }
 
     public function campusInvolvement() {
-      return view('pages.campus-involvement');
+      return view('pages.about.campus-involvement');
+    }
+
+    public function joshDykes() {
+      return view('pages.philanthropy.josh-dykes');
+    }
+
+    public function theVFoundation() {
+      return view('pages.philanthropy.the-v-foundation');
     }
 }
