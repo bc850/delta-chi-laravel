@@ -9,7 +9,7 @@
       <div class="col-md-8 mb-3">
         <div class="col-md-12 dx-bg-white dx-border-eee">
           <div class="my-3">
-            <img class="img-thumbnail" src="https://www.csparks.org/wp-content/uploads/2016/08/AdultSports-2016-A.jpg" style="width: 100%; height: auto;">
+            <img class="img-thumbnail image-full-w" src="https://www.csparks.org/wp-content/uploads/2016/08/AdultSports-2016-A.jpg">
           </div>
           <div class="card mb-3">
             <div class="card-header">

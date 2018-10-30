@@ -42,7 +42,7 @@
                 connection to, a personal relationship will be established with
                 this great organization.
               </p>
-              <img class="mb-3" src="https://s3.amazonaws.com/delta-chi/jimmy-valvano.jpg" style="width: 100%; height: auto;">
+              <img class="mb-3 image-full-w" src="https://s3.amazonaws.com/delta-chi/jimmy-valvano.jpg">
               <p class="card-text">
                 “Delta Chi is excited and honored to be working with The V
                 Foundation,” said Steve Bossart, Past “AA” (International

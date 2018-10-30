@@ -9,7 +9,7 @@
       <div class="col-md-8 mb-3">
         <div class="col-md-12 dx-bg-white dx-border-eee">
           <div class="my-3">
-            <img class="img-thumbnail" src="https://whirlwindgolf.com/golf/emailer2020/img/whirlwindgolf/Tournament_Group_Photo.jpg" style="width: 100%; height: auto;">
+            <img class="img-thumbnail image-full-w" src="https://whirlwindgolf.com/golf/emailer2020/img/whirlwindgolf/Tournament_Group_Photo.jpg">
           </div>
           <div class="card mb-3">
             <div class="card-header">

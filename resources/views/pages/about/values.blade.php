@@ -9,7 +9,7 @@
       <div class="col-md-8 mb-3">
         <div class="col-md-12 dx-bg-white dx-border-eee">
           <div class="my-3">
-            <img class="img-thumbnail" src="https://s3.amazonaws.com/delta-chi/dchi-spotlight.JPG" style="width: 100%; height: auto;">
+            <img class="img-thumbnail image-full-w" src="https://s3.amazonaws.com/delta-chi/dchi-spotlight.JPG">
           </div>
           <div class="py-3 px-3 mt-3" style="background-color: #f5f5f5;">
             <h3>Preamble</h3>

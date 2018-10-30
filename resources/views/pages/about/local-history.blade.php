@@ -8,8 +8,7 @@
     <div class="row">
       <div class="col-md-8 mb-3">
         <div class="col-md-12 dx-bg-white dx-border-eee">
-          <img src="https://s3.amazonaws.com/delta-chi/deltachifoundersweb.jpg" class="img-thumbnail mt-3" alt="West Hall Cadets">
-
+          <img class="img-thumbnail mt-3" src="https://s3.amazonaws.com/delta-chi/deltachifoundersweb.jpg" alt="West Hall Cadets">
           <div class="col-md-12 py-3 text-center">
             <h4>Front Row</h4>
             <p>GLEN PHELPS (Founder), VERNON TWITTY (Founder), Non-Brother, BARRY BOWEN (Founder), CHARLES BROOKS (Founder)</p>
