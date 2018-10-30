@@ -7,7 +7,7 @@
   <div class="container py-4">
     <div class="row">
       <div class="col-md-8 mb-3">
-        <div class="col-md-12" style="background-color: #fff; border: 1px solid #eee;">
+        <div class="col-md-12 dx-bg-white dx-border-eee">
           <img src="https://s3.amazonaws.com/delta-chi/deltachifoundersweb.jpg" class="img-thumbnail mt-3" alt="West Hall Cadets">
 
           <div class="col-md-12 py-3 text-center">

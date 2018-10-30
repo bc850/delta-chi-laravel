@@ -13545,6 +13545,14 @@ a.text-dark:focus {
   color: #C82B32;
 }
 
+.dx-bg-white {
+  background-color: #fff;
+}
+
+.dx-border-eee {
+  border: 1px solid #eee;
+}
+
 .dx-nav-mt {
   margin-top: 68px;
 }
