@@ -31,8 +31,17 @@
   color: #C82B32 !important;
 }
 
+.image-full-w {
+  width: 100%;
+  height: auto;
+}
+
 .jumbo-front-page {
   min-height: 625px;
+}
+
+.jumbo-other-pages {
+  height: 350px;
 }
 
 .jumbotron {

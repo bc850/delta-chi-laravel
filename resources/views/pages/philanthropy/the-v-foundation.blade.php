@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-  <div class="jumbotron" style="background: url(https://s3.amazonaws.com/delta-chi/home-jumbotron.jpg) no-repeat center center; width: 100%; height: 350px; top: 0; left: 0; border-radius: 0 !important;">
+  <div class="jumbotron jumbo-other-pages dx-nav-mt" style="background: url(https://s3.amazonaws.com/delta-chi/home-jumbotron.jpg) no-repeat center center;">
     <h1 class="text-center" style="color: #fff;">The V Foundation for Cancer Research</h1>
   </div>
   <div class="container py-4">
@@ -9,7 +9,7 @@
       <div class="col-md-8 mb-3">
         <div class="col-md-12 dx-bg-white dx-border-eee">
           <div class="my-3">
-            <img class="img-thumbnail" src="https://s3.amazonaws.com/delta-chi/dch-v-foundation.jpg" style="width: 100%; height: auto;">
+            <img class="img-thumbnail image-full-w" src="https://s3.amazonaws.com/delta-chi/dch-v-foundation.jpg">
           </div>
           <div class="card mb-3">
             <div class="card-header">
