@@ -9,7 +9,7 @@
       <div class="col-md-8 mb-3">
         <div class="col-md-12 dx-bg-white dx-border-eee">
           <div class="my-3">
-            <img class="img-thumbnail image-full-w" src="https://www.csparks.org/wp-content/uploads/2016/08/AdultSports-2016-A.jpg">
+            <img class="img-thumbnail image-full-w" src="https://s3.amazonaws.com/delta-chi/dchi-usbale-8.jpg">
           </div>
           <div class="card mb-3">
             <div class="card-header">
@@ -17,8 +17,8 @@
             </div>
             <div class="card-body">
               <p class="card-text">
-                Phi Mu Fraternity stays very involved in other College
-                Panhellenic events. We love supporting other chapters in their
+                Delta Chi Fraternity stays very involved in other College
+                Panhellenic events. We support other chapters in their
                 philanthropic organizations and giving back to the Valdosta
                 State community. We support other chapters in different ways by
                 hosting events together, planning give back nights at restaurants,
@@ -27,9 +27,9 @@
               </p>
               <p class="card-text">
                 We offer different leadership positions available for members of
-                the Kappa Beta chapter. We hold ourselves to a high standard and
+                our chapter. We hold ourselves to a high standard and
                 want the best for our chapter every year.  Not only do we have
-                the highest GPA at Valdosta State University for the 2015-2016
+                the highest GPA at Valdosta State University for the 2016-2017
                 school year, we also excel in community service opportunities.
               </p>
             </div>
