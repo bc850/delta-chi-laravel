@@ -57,4 +57,8 @@ class PagesController extends Controller
     public function recruitmentLetter() {
       return view('pages.recruitment.letter-from-recruitment-chair');
     }
+
+    public function ourRecruitment() {
+      return view('pages.recruitment.our-recruitment');
+    }
 }

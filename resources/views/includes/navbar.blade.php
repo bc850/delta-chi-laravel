@@ -56,7 +56,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item " href="/recruitment/letter-from-recruitment-chair">Letter From Recruitment Chair</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item " href="/philanthropy/josh-dykes-memorial-golf-tournament">Our Recruitment</a>
+              <a class="dropdown-item " href="/recruitment/our-recruitment">Our Recruitment</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item " href="/philanthropy/the-v-foundation">Why Join Delta Chi</a>
               <div class="dropdown-divider"></div>
