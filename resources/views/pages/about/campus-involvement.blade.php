@@ -16,7 +16,7 @@
               <h4>Campus Involvement</h4>
             </div>
             <div class="card-body">
-              <p class="card-text">
+              <p>
                 Delta Chi Fraternity stays very involved in other College
                 Panhellenic events. We support other chapters in their
                 philanthropic organizations and giving back to the Valdosta
@@ -25,7 +25,7 @@
                 and even supporting one another in upcoming events or sports
                 games. We strive to unify Greek life in a positive way.
               </p>
-              <p class="card-text">
+              <p>
                 We offer different leadership positions available for members of
                 our chapter. We hold ourselves to a high standard and
                 want the best for our chapter every year.  Not only do we have
