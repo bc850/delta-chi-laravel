@@ -53,4 +53,8 @@ class PagesController extends Controller
     public function theVFoundation() {
       return view('pages.philanthropy.the-v-foundation');
     }
+
+    public function recruitmentLetter() {
+      return view('pages.recruitment.letter-from-recruitment-chair');
+    }
 }

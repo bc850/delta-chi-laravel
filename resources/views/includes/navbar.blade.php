@@ -54,7 +54,7 @@
               Recruitment
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item " href="/philanthropy/josh-dykes-memorial-golf-tournament">Letter From Recruitment Chair</a>
+              <a class="dropdown-item " href="/recruitment/letter-from-recruitment-chair">Letter From Recruitment Chair</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item " href="/philanthropy/josh-dykes-memorial-golf-tournament">Our Recruitment</a>
               <div class="dropdown-divider"></div>
