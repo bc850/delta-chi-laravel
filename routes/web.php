@@ -26,6 +26,7 @@ Route::get('/philanthropy/josh-dykes-memorial-golf-tournament', 'PagesController
 Route::get('/philanthropy/the-v-foundation', 'PagesController@theVFoundation');
 Route::get('/recruitment/letter-from-recruitment-chair', 'PagesController@recruitmentLetter');
 Route::get('/recruitment/our-recruitment', 'PagesController@ourRecruitment');
+Route::get('/recruitment/why-join', 'PagesController@whyJoin');
 
 Route::resource('posts', 'PostsController');
 

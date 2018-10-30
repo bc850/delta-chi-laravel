@@ -58,7 +58,7 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item " href="/recruitment/our-recruitment">Our Recruitment</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item " href="/philanthropy/the-v-foundation">Why Join Delta Chi</a>
+              <a class="dropdown-item " href="/recruitment/why-join">Why Join Delta Chi</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item " href="/philanthropy/the-v-foundation">Recommend a Member</a>
               <div class="dropdown-divider"></div>

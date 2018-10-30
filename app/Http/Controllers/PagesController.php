@@ -61,4 +61,8 @@ class PagesController extends Controller
     public function ourRecruitment() {
       return view('pages.recruitment.our-recruitment');
     }
+
+    public function whyJoin() {
+      return view('pages.recruitment.why-join');
+    }
 }
