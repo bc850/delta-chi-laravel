@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-  <div class="jumbotron" style="background: url(https://s3.amazonaws.com/delta-chi/home-jumbotron.jpg) no-repeat center center; width: 100%; height: 350px; top: 0; left: 0; border-radius: 0 !important;">
+  <div class="jumbotron dx-nav-mt" style="background: url(https://s3.amazonaws.com/delta-chi/home-jumbotron.jpg) no-repeat center center; width: 100%; height: 350px; top: 0; left: 0; border-radius: 0 !important;">
     <h1 class="text-center" style="color: #fff;">Campus Involvement</h1>
   </div>
   <div class="container py-4">

@@ -11,22 +11,11 @@ $fa-font-path: "../../../node_modules/font-awesome/fonts" !default;
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #F8FAFC;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// Navbar styling
+@import 'navbar';
 
-  #navbarCollapse {
-    li a {
-      color: #C82B32;
-    }
-  }
-}
-
-.active {
-  a {
-    color: black !important;
-  }
-}
+// Custom Utility Suite
+@import 'utilities.scss';
 
 // Import a custom scss stylesheet
 @import 'custom';
