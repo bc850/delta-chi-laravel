@@ -1,0 +1,50 @@
+.active {
+  a {
+    color: black !important;
+  }
+}
+
+.card {
+  .card-header {
+    background-color: #F8FAFC;
+    color: #C82B32;
+  }
+  .card-footer {
+    background-color: #F8FAFC;
+    color: #C82B32;
+  }
+}
+
+.dx-bg-white {
+  background-color: #fff;
+}
+
+.dx-border-eee {
+  border: 1px solid #eee;
+}
+
+.dx-nav-mt {
+  margin-top: 68px;
+}
+
+.fa {
+  color: #C82B32 !important;
+}
+
+.image-full-w {
+  width: 100%;
+  height: auto;
+}
+
+.jumbo-front-page {
+  min-height: 625px;
+}
+
+.jumbo-other-pages {
+  height: 350px;
+}
+
+.jumbotron {
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+}
